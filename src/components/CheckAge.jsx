@@ -5,10 +5,10 @@ export const CheckAge = ({age}) => {
 
     if (age > 17) {
         return  <div>
-                    <p>Fine! Get access to all content!</p>
+                    <p>WELCOME to adult chat!</p>
                 </div>
     } else return   <div>
-                        <p>Сontent is limited!</p>
+                        <p>WELCOME to the children's chat!</p>
                     </div>
 
 }
